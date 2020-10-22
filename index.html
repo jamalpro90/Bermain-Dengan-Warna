@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Color</title>
+    <style>
+        * {margin: 0;
+            padding: 0;
+        }
+        html, body { height: 100%; }
+        
+        body {
+            text-align: center; }
+        
+        button {
+            margin: 10px;
+        }
+
+        .kotak {
+            margin: 7px auto;
+            width: 30px;
+            height: 25px;
+        }
+        .merah { background-color: red;}
+        .hijau { background-color: green;}
+        .biru { background-color: blue;}
+
+        .red { background-color: red; }
+    </style>
+</head>
+<body>
+    <h1>Bermain Dengan Warna</h1>
+    <button type="button" id="red">WARNA MERAH</button>
+    <br><br>
+
+    <div class="kotak merah"></div>
+    <input type="range" name="sMerah" min="0" max="255">
+
+    <div class="kotak hijau"></div>
+    <input type="range" name="sHijau" min="0" max="255">
+
+    <div class="kotak biru"></div>
+    <input type="range" name="sBiru" min="0" max="255">
+
+
+<script src="script.js"></script>
+</body>
+</html>
